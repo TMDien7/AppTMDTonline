@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "542180139831",
+    "project_id": "appfoodcoppy",
+    "storage_bucket": "appfoodcoppy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542180139831:android:f5a602f8bb14c7c966b0b2",
+        "android_client_info": {
+          "package_name": "com.example.appfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542180139831-2d50qfltv5ohplu2mm7eo0jc6mlfr2v3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM6a6o9OXA2A-NvhQZhkRnWBT3W9EKoMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542180139831-2d50qfltv5ohplu2mm7eo0jc6mlfr2v3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

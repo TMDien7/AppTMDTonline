@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:elevation="8dp"
+    android:layout_height="wrap_content"
+    android:background="#95B8B4B4">
+
+
+    <TextView
+        android:id="@+id/txtngaydat"
+        android:textColor="#008000"
+        android:textSize="23sp"
+        android:text="25/05/2024"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_margin="10dp"
+        android:background="#ff0000"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txthoten"
+            android:padding="3dp"
+            android:textColor="#ff0000"
+            android:textSize="20sp"
+            android:text="Tên người mua:"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+
+            android:padding="3dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="Giá tiền"
+            android:id="@+id/txtsdt"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txtdiachi"
+            android:padding="3dp"
+            android:textColor="#008000"
+            android:textSize="18sp"
+            android:text="Địa chỉ"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txttongtien"
+            android:padding="3dp"
+            android:textColor="#008000"
+            android:textSize="18sp"
+            android:text="Tổng tiền:"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

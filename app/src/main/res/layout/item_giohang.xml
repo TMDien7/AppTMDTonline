@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/br_sanpham">
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/hinhanh"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:src="@drawable/br_home"/>
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       >
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Tên sản phẩm:"
+           android:textColor="@color/black"
+           />
+
+       <TextView
+           android:id="@+id/txttensp"
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:maxLines="1"
+           android:padding="6dp"
+           android:singleLine="true"
+           android:text="Tên sản phẩm"
+           android:textColor="#ff0000"
+           android:textSize="23sp" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Giá sản phẩm:"
+           android:textColor="@color/black"/>
+
+       <TextView
+           android:id="@+id/txtgiatien"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:maxLines="1"
+           android:padding="6dp"
+           android:singleLine="true"
+           android:text="Giá sản phẩm"
+           android:textColor="#000000"
+           android:textSize="20sp" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Số lượng sản phẩm:"
+           android:textColor="@color/black"/>
+
+       <TextView
+           android:padding="6dp"
+           android:textColor="#008000"
+           android:textSize="18sp"
+           android:text="1"
+           android:id="@+id/txtsoluong"
+           android:maxLines="1"
+           android:singleLine="true"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Kích thước/ Cân nặng:"
+           android:textColor="@color/black"/>
+
+       <TextView
+           android:padding="6dp"
+           android:textColor="#008000"
+           android:textSize="18sp"
+           android:text="1"
+           android:id="@+id/txtbaohanh"
+           android:maxLines="1"
+           android:singleLine="true"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+
+   </LinearLayout>
+
+</LinearLayout>

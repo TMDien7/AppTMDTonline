@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MD - Shop</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="admin">Đăng nhập dành cho Admin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
